@@ -32,11 +32,7 @@ export default function PresentationSection() {
             css=" w-full max-w-72"
             action={() => downloadCV()}
           />
-          <Link
-            target="_blank"
-            href={'http://localhost:3000/pt-br/home?section=3'}
-            className="w-72"
-          >
+          <Link target="_blank" href={'/pt-br/home?section=3'} className="w-72">
             <CButton
               css=" w-full max-w-72"
               type="secondary"
