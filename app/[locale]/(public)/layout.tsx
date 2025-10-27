@@ -1,11 +1,8 @@
+import { ReactNode } from 'react'
 import PublicFooter from './_components/PublicFooter'
 import PublicHeader from './_components/PublicHeader'
 
-export default function PublicLayout({
-  children,
-}: {
-  children: React.ReactElement
-}) {
+export default function PublicLayout({ children }: { children: ReactNode }) {
   return (
     <main className=" bg-gradient-to-b from-secondaryBlue/50 to-mainBlue text-mainDark scrollbar-hidden">
       <PublicHeader />
