@@ -38,7 +38,7 @@ export const experiences = [
     ],
   },
   {
-    company: 'Arcade Lunar',
+    company: 'Arcade Lunar (Freelance)',
     date: '05/25 - 07/25',
     position: 'Tech Lead',
     location: 'Remoto',
@@ -50,7 +50,7 @@ export const experiences = [
     ],
   },
   {
-    company: 'Berry Companys',
+    company: 'Berry Companys (Freelance)',
     date: '01/25 - 06/25',
     position: 'Tech Lead',
     location: 'Remoto',
