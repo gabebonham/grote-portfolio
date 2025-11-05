@@ -23,6 +23,20 @@ export const experiences = [
       '• Participação em todas as etapas dos projetos: levantamento, desenvolvimento, testes e deploy',
     ],
   },
+
+  {
+    company: 'Desenvolvimento de Bots de Trading',
+    date: '01/25 - Presente',
+    position: 'Desenvolvedor de Automação',
+    location: 'Remoto',
+    activities: [
+      '• Desenvolvimento de Expert Advisors (EAs) para MetaTrader utilizando MQL5',
+      '• Criação de bots de trading automatizados com Python e TypeScript',
+      '• Implementação de estratégias algorítmicas e backtesting de sistemas',
+      '• Otimização de performance e gestão de risco em sistemas automatizados',
+      '• Integração com APIs de corretoras e desenvolvimento de ferramentas de análise técnica',
+    ],
+  },
   {
     company: 'Arcade Lunar',
     date: '05/25 - 07/25',
@@ -36,16 +50,15 @@ export const experiences = [
     ],
   },
   {
-    company: 'Desenvolvimento de Bots de Trading',
-    date: '01/25 - Presente',
-    position: 'Desenvolvedor de Automação',
+    company: 'Berry Companys',
+    date: '01/25 - 06/25',
+    position: 'Tech Lead',
     location: 'Remoto',
     activities: [
-      '• Desenvolvimento de Expert Advisors (EAs) para MetaTrader utilizando MQL5',
-      '• Criação de bots de trading automatizados com Python e TypeScript',
-      '• Implementação de estratégias algorítmicas e backtesting de sistemas',
-      '• Otimização de performance e gestão de risco em sistemas automatizados',
-      '• Integração com APIs de corretoras e desenvolvimento de ferramentas de análise técnica',
+      '• Administração de equipes de desenvolvimento',
+      '• Desenvolvimento e manutenção de sistemas: Frontend, Backend, Desktop, Bots',
+      '• Manutenção e otimização de Banco de Dados',
+      '• Gestão de DevOps e infraestrutura',
     ],
   },
 ]
