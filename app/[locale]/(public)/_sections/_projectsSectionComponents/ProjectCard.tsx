@@ -19,6 +19,7 @@ export default function ProjectCard({
   img,
   description,
   techs,
+  status,
   githubLink,
 }: Props) {
   console.log(img.src)
@@ -56,7 +57,7 @@ export default function ProjectCard({
             </Badge>
           ))}
         </div>
-        <div>
+        <div className="flex flex-col item-center">
           {githubLink ? (
             <Link
               target="_blank"
@@ -67,6 +68,11 @@ export default function ProjectCard({
             </Link>
           ) : (
             <p className="text-red-600">Código fonte privado.</p>
+          )}
+           {status ? (
+            <></>
+          ) : (
+            <p className="text-red-400">Em desenvolvimento.</p>
           )}
         </div>
       </CardFooter>
