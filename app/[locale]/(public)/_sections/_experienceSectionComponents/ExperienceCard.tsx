@@ -35,8 +35,7 @@ export default function ExperienceCard({
         <div>
           <div className="text-sm lg:text-xl flex gap-x-2 text-red-600 border-red-600 border-1 rounded-lg bg-red-100/60 py-4 px-2  ">
             <Info />
-            Experiência encerrada devido a calote por parte da empresa. Gestão
-            extremamente amadora do CEO resultou em inadimplência salarial.
+            Experiência reduzida devido a desafios administrativos e instabilidade financeira da organização.
           </div>
         </div>
       )}
@@ -44,8 +43,7 @@ export default function ExperienceCard({
         <div>
           <div className="text-sm lg:text-xl flex gap-x-2 text-red-600 border-red-600 border-1 rounded-lg bg-red-100/60 py-4 px-2  ">
             <Info />
-            Permanência curta devido a condições de trabalho insustentáveis e
-            gestão extremamente amadora por parte do CEO.
+            Permanência reduzida por questões estruturais e instabilidade financeira da organização.
           </div>
         </div>
       )}
