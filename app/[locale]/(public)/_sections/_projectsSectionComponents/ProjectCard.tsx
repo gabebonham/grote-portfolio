@@ -25,7 +25,7 @@ export default function ProjectCard({
   console.log(img.src)
   return (
     <Card
-      className="rounded-3xl max-w-96 w-full h-[418px] p-0 bg-white/90 flex justify-center items-center  border-t border-l border-black
+      className="rounded-3xl max-w-96 w-full h-[424px] p-0 bg-white/90 flex justify-center items-center  border-t border-l border-black
     border-r-[5px] md:h-[412px] transition-all hover:border-r-[11px] border-b-[5px] hover:border-b-[11px]  "
     >
       <Link
