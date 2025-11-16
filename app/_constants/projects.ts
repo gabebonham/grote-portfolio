@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     name: 'Site de Grupos',
-    techs: ['Next Js', 'NestJs', 'Postgres', 'Docker', 'Vercel'],
+    techs: ['Next Js', 'NestJs', 'Postgres', 'Vercel'],
     img: whats,
     link: 'https://whatsapp-group-repo.vercel.app',
     githubLink: 'https://github.com/gabebonham/what-repo-back',
