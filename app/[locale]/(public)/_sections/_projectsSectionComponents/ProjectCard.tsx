@@ -49,7 +49,7 @@ export default function ProjectCard({
           </div>
         </div>
       </Link>
-      <CardFooter className="flex flex-col gap-y-2 ">
+      <CardFooter className="flex flex-col gap-y-0 ">
         <div className="">
           {techs.map((skill) => (
             <Badge className="mr-2" key={skill}>
@@ -57,7 +57,7 @@ export default function ProjectCard({
             </Badge>
           ))}
         </div>
-        <div className="flex flex-col item-center">
+        <div className="flex flex-col item-center gap-y-2">
           {githubLink ? (
             <Link
               target="_blank"
@@ -69,10 +69,10 @@ export default function ProjectCard({
           ) : (
             <p className="text-red-600">Código fonte privado.</p>
           )}
-           {status ? (
-            <></>
-          ) : (
+           {status &&status=="desenvolvimento" ? (
             <p className="text-red-400">Em desenvolvimento.</p>
+          ) : (
+            <></>
           )}
         </div>
       </CardFooter>
