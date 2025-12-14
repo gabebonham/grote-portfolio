@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function FooterComponent() {
   return (
-    <footer className="bg-mainDark text-secondaryBlue h-full">
+    <footer className="bg-mainDark text-secondaryBlue h-fit">
       <div className="lg:hidden py-6 gap-y-8   w-full text-center items-center flex flex-col justify-between  px-4  ">
         <div className="flex flex-col  justify-center text-center gap-y-2">
           <h1 className="text-2xl">Info Para Contato</h1>

@@ -13,7 +13,7 @@ export default function SectionDisplay() {
     currentSectionId = parseInt(params.get('section') as string)
   }
   return (
-    <div className={` lg:px-16 lg:py-12 `}>
+    <div className={` lg:px-16 min-h-screen `}>
       {sections.find((section) => section.id == currentSectionId)?.component}
     </div>
   )

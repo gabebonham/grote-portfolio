@@ -5,6 +5,7 @@ import chat from '@/public/images/chat.png'
 import luma from '@/public/images/luma.png'
 import whats from '@/public/images/whats.png'
 import ever from '@/public/images/evere4.png'
+import hma from '@/public/images/hma.png'
 export const projects = [
   {
     name: 'H4 Investimentos',
@@ -21,6 +22,14 @@ export const projects = [
     techs: ['Supabase', 'Next Js', 'DotNet', 'Docker', 'VPS'],
     img: ever,
     description: 'Site que disponibiliza radares para o mercado financeiro.',
+    status: 'concluido',
+  },
+  {
+    name: 'HMACalculator',
+    link: 'https://calculator-hma.vercel.app',
+    techs: ['Vercel', 'Next Js', 'Nest', 'Docker', 'VPS'],
+    img: hma,
+    description: 'Site para calculos de HMA.',
     status: 'concluido',
   },
   {

@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${nunitoSans.variable} overflow-y-auto no-scrollbar antialiased font-normal leading-relaxed tracking-wide`}
+        className={`${nunitoSans.variable} overflow-y-auto  no-scrollbar antialiased font-normal min-h-screen h-full leading-relaxed tracking-wide`}
       >
         {children}
       </body>

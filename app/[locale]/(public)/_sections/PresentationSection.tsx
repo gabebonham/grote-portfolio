@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { downloadCV } from '@/app/_lib/download-cv'
 export default function PresentationSection() {
   return (
-    <section className="duration-200 transition-all fade-in-up flex flex-col-reverse lg:flex-row h-full lg:items-center lg:justify-center lg:gap-x-24">
+    <section className="duration-200 transition-all fade-in-up flex flex-col-reverse  lg:flex-row box-content h-full lg:items-center lg:justify-center lg:gap-x-24">
       <div className="w-full flex flex-col gap-y-4 py-4 lg:w-3/5 ">
         <div className="w-full flex flex-col gap-y-4 lg:gap-y-8">
           <h1 className="text-center text-3xl font-bold sm:text-4xl lg:text-start lg:text-6xl">
@@ -24,7 +24,7 @@ export default function PresentationSection() {
             ))}
           </p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-y-2 lg:py-4 lg:flex-row lg:w-full lg:justify-start lg:gap-x-8">
+        <div className="flex flex-col items-center justify-center gap-y-2 lg:flex-row lg:w-full lg:justify-start lg:gap-x-8">
           <CButton
             type="primary"
             label="Download CV"
