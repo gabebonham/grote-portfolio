@@ -7,6 +7,8 @@ import whats from '@/public/images/whats.png'
 import ever from '@/public/images/evere4.png'
 import hma from '@/public/images/hma.png'
 import chirp from '@/public/images/chirp.png'
+import bijux from '@/public/images/bij.png'
+
 export const projects = [
   {
     name: 'Chirp',
@@ -76,6 +78,15 @@ export const projects = [
     img: chat,
     description:
       'Um treinamento pessoal. A ideia e simular um aplicativo similar ao Whatsapp.',
+    status: 'desenvolvimento',
+  },
+    {
+    name: 'Biscuit Bijux',
+    link: 'https://biscuit-bijux.vercel.app/home',
+    techs: ['Next Js', 'Vercel'],
+    img: bijux,
+    description:
+      'Vitrine de bijuterias.',
     status: 'desenvolvimento',
   },
 ]
