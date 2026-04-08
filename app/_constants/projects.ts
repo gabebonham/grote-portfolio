@@ -6,14 +6,15 @@ import luma from '@/public/images/luma.png'
 import whats from '@/public/images/whats.png'
 import ever from '@/public/images/evere4.png'
 import hma from '@/public/images/hma.png'
+import chirp from '@/public/images/chirp.png'
 export const projects = [
   {
-    name: 'H4 Investimentos',
-    link: 'https://www.h4invest.com.br/home',
-    techs: ['Next Js', 'DotNet', 'Meta Trader 5', 'Postgres', 'Docker', 'VPS'],
-    img: h4,
+    name: 'Chirp',
+    link: 'https://connect-share-one.vercel.app',
+    techs: ['Next Js', 'Nest', 'Postgres', 'Docker', 'VPS'],
+    img: chirp,
     description:
-      'Site para Operações Financeiras Automatizadas com Robôs de alta performance.',
+      'Rede social simples e minimalista.',
     status: 'concluido',
   },
   {
