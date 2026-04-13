@@ -8,6 +8,7 @@ import ever from '@/public/images/evere4.png'
 import hma from '@/public/images/hma.png'
 import chirp from '@/public/images/chirp.png'
 import bijux from '@/public/images/bij.png'
+import crm from '@/public/images/crm.png'
 
 export const projects = [
   {
@@ -72,13 +73,21 @@ export const projects = [
   },
   {
     name: 'App de Chat',
-    link: 'https://chat-app-eight-virid.vercel.app/login',
-    githubLink: 'https://github.com/gabebonham/chat-app',
-    techs: ['Next Js', 'Spring Boot', 'Vercel'],
+    link: 'https://neon-chat-delta.vercel.app',
+    techs: ['Vite', 'NestJs', 'Vercel'],
     img: chat,
     description:
-      'Um treinamento pessoal. A ideia e simular um aplicativo similar ao Whatsapp.',
-    status: 'desenvolvimento',
+      'Um app de chat em tempo real. A ideia e simular um aplicativo similar ao Whatsapp.',
+    status: 'concluido',
+  },
+    {
+    name: 'Saas CRM',
+    link: 'https://flowdesk-crm-suite.vercel.app',
+    techs: ['NextJs', 'NestJs', 'Vercel'],
+    img: crm,
+    description:
+      'Um Saas CRM com dashboards, administração de financeiro, propostas e usuários.',
+    status: 'concluido',
   },
     {
     name: 'Biscuit Bijux',
