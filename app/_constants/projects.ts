@@ -9,6 +9,7 @@ import hma from '@/public/images/hma.png'
 import chirp from '@/public/images/chirp.png'
 import bijux from '@/public/images/bij.png'
 import crm from '@/public/images/crm.png'
+import task from '@/public/images/task.png'
 
 export const projects = [
   {
@@ -35,6 +36,31 @@ export const projects = [
     img: hma,
     description: 'Site para calculos de HMA.',
     status: 'concluido',
+  }, {
+    name: 'App de Chat',
+    link: 'https://neon-chat-delta.vercel.app',
+    techs: ['Vite', 'NestJs', 'Vercel'],
+    img: chat,
+    description:
+      'Um app de chat em tempo real. A ideia e simular um aplicativo similar ao Whatsapp.',
+    status: 'concluido',
+  },
+    {
+    name: 'Saas CRM',
+    link: 'https://flowdesk-crm-suite.vercel.app',
+    techs: ['NextJs', 'NestJs', 'Vercel'],
+    img: crm,
+    description:
+      'Um Saas CRM com dashboards, administração de financeiro, propostas e usuários.',
+    status: 'concluido',
+  },
+    {
+    name: 'Agenda Flex',
+    link: 'https://your-time-keeper.vercel.app/',
+    techs: ['NextJs', 'Nest'],
+    img: task,
+    description: 'App de agendamento de qualquer coisa.',
+    status: 'desenvolvimento',
   },
   {
     name: 'Arcade Lunar',
@@ -71,24 +97,7 @@ export const projects = [
       'Um teste. O site foi feito em 3 horas como desafio para provar minhas skills para trabalhar em uma empresa.',
     status: 'concluido',
   },
-  {
-    name: 'App de Chat',
-    link: 'https://neon-chat-delta.vercel.app',
-    techs: ['Vite', 'NestJs', 'Vercel'],
-    img: chat,
-    description:
-      'Um app de chat em tempo real. A ideia e simular um aplicativo similar ao Whatsapp.',
-    status: 'concluido',
-  },
-    {
-    name: 'Saas CRM',
-    link: 'https://flowdesk-crm-suite.vercel.app',
-    techs: ['NextJs', 'NestJs', 'Vercel'],
-    img: crm,
-    description:
-      'Um Saas CRM com dashboards, administração de financeiro, propostas e usuários.',
-    status: 'concluido',
-  },
+ 
     {
     name: 'Biscuit Bijux',
     link: 'https://biscuit-bijux.vercel.app/home',
