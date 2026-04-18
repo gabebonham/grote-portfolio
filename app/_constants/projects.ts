@@ -10,6 +10,8 @@ import chirp from '@/public/images/chirp.png'
 import bijux from '@/public/images/bij.png'
 import crm from '@/public/images/crm.png'
 import task from '@/public/images/task.png'
+import lead from '@/public/images/lead.png'
+import ecom from '@/public/images/ecom.png'
 
 export const projects = [
   {
@@ -63,10 +65,19 @@ export const projects = [
     status: 'desenvolvimento',
   },
   {
-    name: 'Arcade Lunar',
-    techs: ['Flutter', 'Nest'],
-    img: arcade,
-    description: 'App de rede social para o publico jovem',
+    name: 'LeadBot ',
+    techs: ['NestJs', 'VueJs'],
+    link: 'https://leadbot-ai-chat-90a10219.vercel.app/',
+    img: lead,
+    description: 'App de captura de leads e gerenciamento de bots funcionais',
+    status: 'concluido',
+  },
+  {
+    name: 'Shopease Flow',
+    techs: ['NestJs', 'NextJs'],
+    link: 'https://shopease-flow-770f65c2.vercel.app/',
+    img: ecom,
+    description: 'App de E-commerce',
     status: 'concluido',
   },
   {
